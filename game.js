@@ -18,7 +18,7 @@ function main(currentTime) {
   if (gameOver) {
     
     if (confirm("You lost .Press ok to restart.")) {
-      window.location = "/snake";
+      window.location = "/";
     }
     return;
   }
