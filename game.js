@@ -42,13 +42,15 @@ function update() {
   updateSnake();
   updateFood();
   checkDeath();
-
+  // updateControls();
   // console.log(updateFood);
 }
 function draw() {
   gameBoard.innerHTML = "";
   drawSnake(gameBoard);
   drawFood(gameBoard);
+  // controls.innerHTML ="";
+  
 }
 
 function checkDeath() {
