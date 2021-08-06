@@ -6,6 +6,7 @@ body {
   align-items: center;
   margin: 0;
   background-color: black;
+  flex-direction: column;
   }
 
 #up, #down, #right, #left {
