@@ -41,7 +41,25 @@ body {
   width: 15vmin;
   height: 15vmin;
 }
+  #up{
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+}
 
+#down{
+  border-bottom-left-radius:50px;
+border-bottom-right-radius:50px;
+}
+
+#right{
+  border-top-right-radius:50px;
+border-bottom-right-radius:50px;
+}
+
+#left{
+  border-top-left-radius:50px;
+border-bottom-left-radius:50px;
+}
 
 #game-board {
   background-color: #ccc;
